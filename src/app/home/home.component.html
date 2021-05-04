@@ -1,0 +1,25 @@
+<main>
+    <br><br>
+    <h1 class="text-center heading1">SHEIN<span class="heading2"> Waffer</span></h1>
+    <br>
+    <div class="container outtermain">
+        <form (ngSubmit)="price(form)" #form="ngForm">
+            <div class="form-group" id="name_branch">
+                <label for="name">URL:</label>
+                <input type="url" ngModel class="form-control form-control-sm" id="name" name="name"
+                    placeholder="Enter URL" required>
+            </div>
+
+            <div class="text-center">
+                <br>
+                <button type="submit" class="btn nextButton" id="7mada">Price</button>
+                <!-- <button id="button1" onclick=myFunction()>Price</button> -->
+            </div>
+            <div class="m text-center">
+                <br>
+                <span></span>
+            </div>
+
+        </form>
+    </div>
+</main>
